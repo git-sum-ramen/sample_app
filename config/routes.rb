@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   #   get "/photos" => "photos#index"
   # end
   namespace :api do
+# http verb  url (insomnia)   controller   method in the controller
     get "/hello_path" => "example_pages#hello_action"
   end
 end
