@@ -1,6 +1,6 @@
 class Api::ExamplePagesController < ApplicationController
   def hello_action
     # web response
-    render json: {message: "hellooooooooo there"}
+    render 'hello.json.jb'
   end
 end
